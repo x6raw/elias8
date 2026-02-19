@@ -1,0 +1,4 @@
+0 Wasserflasche
+1 Stift
+2 Jacke
+3 Federtasche
