@@ -83,3 +83,4 @@ if "items" in st.session_state and len(st.session_state.items) > 0:
         st.write(f"{i+1}. {item['name']} ({round(item['confidence']*100, 2)}%)")
 else:
     st.info("Noch keine Einträge vorhanden.")
+st.image(image, caption="Hochgeladenes Bild", width=400)
