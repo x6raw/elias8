@@ -10,7 +10,7 @@ st.write("Lade ein Bild eines gefundenen Gegenstands hoch.")
 # Modell laden
 @st.cache_resource
 def load_my_model():
-    return load_model("keras_Model.h5", compile=False)
+    return load_model("keras_model.h5", compile=False)
 
 model = load_my_model()
 
