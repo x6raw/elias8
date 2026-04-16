@@ -7,7 +7,7 @@ import os
 st.title("🔍 KI-Fundbüro")
 
 # Modell laden
-MODEL_PATH = "keras_Model.h5"
+MODEL_PATH = "keras_model.h5"
 
 @st.cache_resource
 def load_my_model():
